@@ -1,6 +1,6 @@
 package ru.gb.hm3.abstract_factory;
 
-public class MiFactory implements ProductFactory{
+public class MiFactory implements ProductFactory {
     public String creatPhone() {
         return "Phone Xiaomi Mi 11 Lite 4G";
     }

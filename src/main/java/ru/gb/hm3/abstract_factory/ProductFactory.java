@@ -5,6 +5,7 @@ public interface ProductFactory {
     String creatPhone();
 
     String creatTV();
+
     String creatNotebook();
 
 }

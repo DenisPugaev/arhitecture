@@ -11,6 +11,7 @@ public class CarTest {
                 .withDate(LocalDate.of(2010, 6, 7))
                 .build();
 
+
         System.out.println(car.getBrand());
         System.out.println(car.getDate());
 
