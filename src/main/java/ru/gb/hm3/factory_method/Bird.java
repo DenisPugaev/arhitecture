@@ -1,4 +1,6 @@
-package ru.gb.factory_method;
+package ru.gb.hm3.factory_method;
+
+import ru.gb.hm3.factory_method.Action;
 
 public abstract class Bird {
 

@@ -1,4 +1,4 @@
-package ru.gb.factory_method;
+package ru.gb.hm3.factory_method;
 
 public class Duck extends Bird {
 

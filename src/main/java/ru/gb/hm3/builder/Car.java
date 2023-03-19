@@ -1,56 +1,51 @@
-package ru.geekbrains.builder;
+package ru.gb.hm3.builder;
 
 import java.time.LocalDate;
 
-public class Person {
+public class Car {
 
-    private String firstname;
+    private String brand;
 
-    private String lastname;
+    private String model;
 
-    private LocalDate birthdate;
+    private LocalDate date;
 
-    private String gender;
+    private String color;
 
-    private String profession;
 
-    private Person() {
+    private Car() {
     }
 
-    public Person(String firstname, String lastname, LocalDate birthdate, String gender, String profession) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.birthdate = birthdate;
-        this.gender = gender;
-        this.profession = profession;
+    public Car(String brand, String model, LocalDate date, String color, String profession) {
+        this.brand = brand;
+        this.model = model;
+        this.date = date;
+        this.color = color;
     }
 
-    public Person(String firstname, String lastname, LocalDate birthdate, String gender) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.birthdate = birthdate;
-        this.gender = gender;
+    public Car(String brand, String model, LocalDate date, String color) {
+        this.brand = brand;
+        this.model = model;
+        this.date = date;
+        this.color = color;
     }
 
-    public String getFirstname() {
-        return firstname;
+    public String getBrand() {
+        return brand;
     }
 
-    public String getLastname() {
-        return lastname;
+    public String getModel() {
+        return model;
     }
 
-    public LocalDate getBirthdate() {
-        return birthdate;
+    public LocalDate getDate() {
+        return date;
     }
 
-    public String getGender() {
-        return gender;
+    public String getColor() {
+        return color;
     }
 
-    public String getProfession() {
-        return profession;
-    }
 
     public static Builder createBuilder() {
         return new Builder();
@@ -58,47 +53,39 @@ public class Person {
 
     public static class Builder {
 
-        private final Person person;
+        private final Car car;
 
         public Builder() {
-            this.person = new Person();
+            this.car = new Car();
         }
 
-        public Builder withFirstname(String firstname) {
-            this.person.firstname = firstname;
+        public Builder withBrand(String brand) {
+            this.car.brand = brand;
             return this;
         }
 
-        public Builder withLastname(String lastname) {
-            this.person.lastname = lastname;
+        public Builder withModel(String model) {
+            this.car.model = model;
             return this;
         }
 
-        public Builder withBirthdate(LocalDate birthdate) {
-            this.person.birthdate = birthdate;
+        public Builder withDate(LocalDate date) {
+            this.car.date = date;
             return this;
         }
 
-        public Builder withGender(String gender) {
-            this.person.gender = gender;
+        public Builder withColor(String color) {
+            this.car.color = color;
             return this;
         }
 
-        public Builder withProfession(String profession) {
-            this.person.profession = profession;
-            return this;
+
+        public Car build() {
+            return car;
         }
 
-        public Person build() {
-            return person;
-        }
+
     }
 
-    public static void main(String[] args) {
-        Person person = Person.createBuilder()
-                .withFirstname("Ivan")
-                .withLastname("Petrov")
-                .withGender("M")
-                .build();
-    }
+
 }

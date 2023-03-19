@@ -1,4 +1,4 @@
-package ru.gb.abstract_factory;
+package ru.gb.hm3.abstract_factory;
 
 public class MiFactory implements ProductFactory{
     public String creatPhone() {
