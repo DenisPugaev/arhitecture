@@ -2,8 +2,8 @@ package ru.gb.hm4.composite;
 
 public class TestComposite {
     public static void main(String[] args) {
-        Product tv = new Electronics("Samsung",20000.00);
-        Product jacket = new Clothes("Colombia",7000.00);
+        Product tv = new Electronics("Samsung", 20000.00);
+        Product jacket = new Clothes("Colombia", 7000.00);
 
         Cart cart = new Cart();
 

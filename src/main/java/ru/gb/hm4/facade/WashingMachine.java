@@ -2,33 +2,37 @@ package ru.gb.hm4.facade;
 
 public class WashingMachine {
 
-    public String setWashingMode(){
+    public String setWashingMode() {
         return "Выбран режим стирки";
     }
-    public String fillDrum(){
+
+    public String fillDrum() {
         return "Стиральный барабан наполнен водой";
     }
-    public String basicWashing(){
+
+    public String basicWashing() {
         return "Произведена основная стрика";
     }
-    public String delicateWashing(){
+
+    public String delicateWashing() {
         return "Произведена деликатная стирка стрика";
     }
 
     public String rinsing() {
         return "Произведено полоскание";
     }
-        public String  waterDrained(){
-            return "Вода слита";
+
+    public String waterDrained() {
+        return "Вода слита";
     }
-    public String wringing(){
+
+    public String wringing() {
         return "Произведен отжим";
     }
 
-    public String done(){
+    public String done() {
         return "Готово!";
     }
-
 
 
 }

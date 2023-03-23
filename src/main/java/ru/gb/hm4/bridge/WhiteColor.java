@@ -1,6 +1,6 @@
 package ru.gb.hm4.bridge;
 
-public class WhiteColor  implements Color{
+public class WhiteColor implements Color {
     @Override
     public String getColor() {
 

@@ -1,6 +1,6 @@
 package ru.gb.hm4.composite;
 
-public class Clothes implements Product{
+public class Clothes implements Product {
     private String title;
     private double price;
 
@@ -21,6 +21,6 @@ public class Clothes implements Product{
 
     @Override
     public void setPrice(float price) {
-        this.price=price;
+        this.price = price;
     }
 }

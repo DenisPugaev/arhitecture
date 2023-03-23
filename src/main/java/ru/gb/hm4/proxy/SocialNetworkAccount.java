@@ -1,13 +1,12 @@
 package ru.gb.hm4.proxy;
 
-public class SocialNetworkAccount implements Account{
+public class SocialNetworkAccount implements Account {
 
 
     @Override
     public void logIn(String password) {
         System.out.println("Выполнен вход в аккаунт соц сети");
     }
-
 
 
     @Override

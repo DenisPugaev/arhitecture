@@ -11,6 +11,6 @@ public class SedanCar implements Car {
 
     @Override
     public void present() {
-        System.out.println("Данный седан представлен в "+color.getColor());
+        System.out.println("Данный седан представлен в " + color.getColor());
     }
 }

@@ -9,13 +9,12 @@ public class PasswordProtectedAccount implements Account {
     }
 
 
-
     @Override
     public void logIn(String password) {
-        if (authentication(password)) {this.account.logIn(password);
+        if (authentication(password)) {
+            this.account.logIn(password);
         } else System.out.println("Неверный пароль");
     }
-
 
 
     @Override
@@ -25,7 +24,7 @@ public class PasswordProtectedAccount implements Account {
     }
 
 
-    private boolean authentication(String password){
+    private boolean authentication(String password) {
         return "qwerty".equals(password);
     }
 }

@@ -4,17 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cart {
-    private List<Product> products=new ArrayList<>();
+    private List<Product> products = new ArrayList<>();
 
 
-    public void addProduct(Product product){
-       products.add(product);
+    public void addProduct(Product product) {
+        products.add(product);
     }
 
-    public float getTotalPrice(){
-        float totalPrice=0;
-        for (Product p:products) {
-            totalPrice+=p.getPrice();
+    public float getTotalPrice() {
+        float totalPrice = 0;
+        for (Product p : products) {
+            totalPrice += p.getPrice();
         }
         return totalPrice;
     }

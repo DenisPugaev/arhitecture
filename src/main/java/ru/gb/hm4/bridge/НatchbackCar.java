@@ -11,6 +11,6 @@ public class НatchbackCar implements Car {
 
     @Override
     public void present() {
-        System.out.println("Данный хэтчбэк представлен в "+color.getColor());
+        System.out.println("Данный хэтчбэк представлен в " + color.getColor());
     }
 }

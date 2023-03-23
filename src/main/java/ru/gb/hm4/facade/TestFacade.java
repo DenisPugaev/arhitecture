@@ -5,14 +5,13 @@ public class TestFacade {
         WashingMachineFacade washingMachine = new WashingMachineFacade(new WashingMachine());
 
 
-        System.out.println("Включить основной режим стирки: \n"+washingMachine.startBasicWash()+" \n");
+        System.out.println("Включить основной режим стирки: \n" + washingMachine.startBasicWash() + " \n");
 
-        System.out.println("Включить деликатный режим стирки: \n"+washingMachine.startDelicateWash()+" \n");
+        System.out.println("Включить деликатный режим стирки: \n" + washingMachine.startDelicateWash() + " \n");
 
-        System.out.println("Включить отжим: \n"+washingMachine.startRinseMode()+" \n");
+        System.out.println("Включить отжим: \n" + washingMachine.startRinseMode() + " \n");
 
     }
-
 
 
 }

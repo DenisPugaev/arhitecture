@@ -10,11 +10,11 @@ public class HoneyTea implements Tea {
 
     @Override
     public double getPrice() {
-        return tea.getPrice()+6.0;
+        return tea.getPrice() + 6.0;
     }
 
     @Override
     public String getComposition() {
-        return this.tea.getComposition()+", honey";
+        return this.tea.getComposition() + ", honey";
     }
 }

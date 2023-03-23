@@ -10,11 +10,11 @@ public class RaspberryTea implements Tea {
 
     @Override
     public double getPrice() {
-        return tea.getPrice()+5.0;
+        return tea.getPrice() + 5.0;
     }
 
     @Override
     public String getComposition() {
-        return this.tea.getComposition()+", raspberry";
+        return this.tea.getComposition() + ", raspberry";
     }
 }
