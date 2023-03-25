@@ -2,6 +2,7 @@ package ru.gb.hm3.abstract_factory;
 
 public class SamsungFactory implements ProductFactory {
 
+
     public String creatPhone() {
         return "Phone Samsung S20";
     }
