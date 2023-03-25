@@ -5,40 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51fe60f7-7ff6-4a84-8578-c1b0e353b877" name="Changes" comment="hm4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/adapter/AnimalTrainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/adapter/BengalCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/adapter/BengalCatAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/adapter/CorgiDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/adapter/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/adapter/LabradorDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/adapter/TestAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/bridge/BalckColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/bridge/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/bridge/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/bridge/SedanCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/bridge/TestBridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/bridge/WhiteColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/bridge/НatchbackCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/composite/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/composite/Clothes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/composite/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/composite/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/composite/TestComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/decorator/HoneyTea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/decorator/LemonTea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/decorator/RaspberryTea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/decorator/SimpleTea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/decorator/Tea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/decorator/TestDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/facade/TestFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/facade/WashingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/facade/WashingMachineFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/proxy/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/proxy/PasswordProtectedAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/proxy/SocialNetworkAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm4/proxy/TestProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/chain_of_responsibility/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/chain_of_responsibility/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/chain_of_responsibility/Bitcoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/chain_of_responsibility/PayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/chain_of_responsibility/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/command/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/command/TurnOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/command/TurnOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/iterator/RadioStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/iterator/StationList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/iterator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/mediator/ChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/mediator/ChatRoomMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/mediator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/mediator/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/memento/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/memento/EditorMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/memento/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/observer/EmploymentAgency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/observer/JobPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/observer/JobSeeker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/observer/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/state/DefaultText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/state/LowerCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/state/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/state/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/state/UpperCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/state/WritingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/strategy/BubbleSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/strategy/InsertsSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/strategy/SortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/strategy/Sorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/strategy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/template_method/AndroidBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/template_method/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/template_method/IosBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/visitor/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/visitor/AnimalOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/visitor/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/visitor/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/visitor/Jump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/visitor/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/visitor/Speak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hm5/visitor/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/AppTestAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +75,6 @@
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">
@@ -110,23 +122,30 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.gb.hm5.visitor" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DeN\IdeaProjects\arhitecture\src\main\java\ru\gb" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ru.gb.hm5.observer" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.gb.hm5.strategy" />
+      <recent name="ru.gb.hm5.command" />
+      <recent name="ru.gb.hm5.chain_of_responsibility" />
       <recent name="ru.gb.hm4.facade" />
       <recent name="ru.gb.hm4.bridge" />
-      <recent name="ru.gb.hm3.builder" />
-      <recent name="ru.gb.factory_method" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestProxy">
-    <configuration name="TestBridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.hm4.bridge.TestBridge" />
+  <component name="RunManager" selected="Application.ru.gb.hm5.template_method.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.hm5.visitor.Test" />
       <module name="arhitecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.hm4.bridge.*" />
+          <option name="PATTERN" value="ru.gb.hm5.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestComposite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.hm4.composite.TestComposite" />
+    <configuration name="ru.gb.hm5.observer.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.hm5.observer.Test" />
       <module name="arhitecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.hm4.composite.*" />
+          <option name="PATTERN" value="ru.gb.hm5.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDecorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.hm4.decorator.TestDecorator" />
+    <configuration name="ru.gb.hm5.state.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.hm5.state.Test" />
       <module name="arhitecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.hm4.decorator.*" />
+          <option name="PATTERN" value="ru.gb.hm5.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFacade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.hm4.facade.TestFacade" />
+    <configuration name="ru.gb.hm5.strategy.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.hm5.strategy.Test" />
       <module name="arhitecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.hm4.facade.*" />
+          <option name="PATTERN" value="ru.gb.hm5.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.hm4.proxy.TestProxy" />
+    <configuration name="ru.gb.hm5.template_method.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.hm5.template_method.Test" />
       <module name="arhitecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.hm4.proxy.*" />
+          <option name="PATTERN" value="ru.gb.hm5.template_method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestProxy" />
-        <item itemvalue="Application.TestFacade" />
-        <item itemvalue="Application.TestDecorator" />
-        <item itemvalue="Application.TestComposite" />
-        <item itemvalue="Application.TestBridge" />
+        <item itemvalue="Application.ru.gb.hm5.template_method.Test" />
+        <item itemvalue="Application.ru.gb.hm5.state.Test" />
+        <item itemvalue="Application.ru.gb.hm5.strategy.Test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ru.gb.hm5.observer.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +225,9 @@
       <updated>1679249018010</updated>
       <workItem from="1679249019530" duration="8991000" />
       <workItem from="1679514133188" duration="6284000" />
-      <workItem from="1679601073022" duration="6184000" />
+      <workItem from="1679601073022" duration="6444000" />
+      <workItem from="1679737731687" duration="12582000" />
+      <workItem from="1679763526499" duration="11128000" />
     </task>
     <task id="LOCAL-00001" summary="hm3">
       <created>1679257799636</created>
@@ -236,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679607260313</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hm4">
+      <created>1679607408718</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679607408718</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +293,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/gb/hm4/facade/TestFacade.java</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/gb/hm5/chain_of_responsibility/Account.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
